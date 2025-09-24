@@ -119,5 +119,13 @@ sns.heatmap(corr,annot=True)
 ```
 <img width="1140" height="510" alt="image" src="https://github.com/user-attachments/assets/34f7f30e-4998-4ba9-9253-b0a225266e05" />
 
+```
+corr=df.select_dtypes(include=np.number).corr
+sns.heatmap(corr,annot=True)
+```
+<img width="1262" height="954" alt="image" src="https://github.com/user-attachments/assets/d3b97cfe-e29e-4390-9b1d-fbc0a63c87be" />
+
+
+
 # RESULT
 Exploratory Data Analysis on the given data set is successful
